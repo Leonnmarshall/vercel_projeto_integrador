@@ -1,0 +1,85 @@
+main.HomeContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentContainer {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0 0 0;
+}
+
+.LoginInputPurpleLabel{
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.LoginPurplePwdContainer {
+  border: none;
+  width: 300px;
+  border-radius: 20px;
+  height: 40px;
+  margin: 10px 0;
+  background-color: #666BD3;
+  padding: 10px;
+  color: #fff;
+}
+
+.LoginPurpleCpfContainer {
+  border: none;
+  width: 300px;
+  border-radius: 20px;
+  height: 40px;
+  margin: 10px 0;
+  background-color: #666BD3;
+  padding: 10px;
+  color: #fff;
+}
+
+.LoginPurpleButton {
+  border: none;
+  width: 200px;
+  border-radius: 20px;
+  height: 40px;
+  margin: 40px 0;
+  background-color: #fff;
+  padding: 10px;
+  color: #666BD3;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.LoginPurpleButton:hover {
+  background-color: #666BD3;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.LoginLogo {
+  position: absolute;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+}

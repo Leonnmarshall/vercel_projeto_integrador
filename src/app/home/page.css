@@ -1,0 +1,38 @@
+main.HomeContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eeeeee;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ContentContainer {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomePurpleButtonContainer {
+  width: 200px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: #666BD3;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.HomePurpleButtonContainer:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
